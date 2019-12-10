@@ -60,7 +60,6 @@ task,Select Generate CB Token,4,4,Llewellyn (14355728),,,en,Europe/London
 task,Select Generate CB License,4,4,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
 task,Select Generate CB RPM,4,4,Llewellyn (14355728),,,en,Europe/London
-note,Server name: empty. Enable the License end date tickbox on the right side. ,,,Llewellyn (14355728),,,,
 ,,,,,,,,
 task,Send out Evaluation Email,3,2,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,

@@ -18,13 +18,14 @@ def get_project_id(data):
     if data == "new demo":
         return 2213838333
     else:
-        return 0000000000
+        return 2215732027
 
 
 def get_csv(data, product):
     if data == "new demo":
-        return 'templates/Demo.csv'
+        return 'templates/Demo_Checklist.csv'
     elif product == "cbd":
+        print("Returning CBD")
         return 'templates/POC_CBC.csv'
     elif product == "cbr":
         return 'templates/POC_CBR.csv'
@@ -33,43 +34,28 @@ def get_csv(data, product):
 
 
 def validate_command():
-
-    com = ""
-
-    def valid_try():
-        global com
+    while True:
         try:
             com = input("Enter in a command: ")
             if com == "new demo" or com == "new poc":
-                return True
+                break
             else:
-                return False
+                print("Please enter in a valid command")
         except ValueError:
-            return False
-
-    while not valid_try():
-        print("Please enter a valid command (new demo/new poc)")
-
+            print("Please enter in a valid command")
     return com
 
 
 def validate_product():
-    prod = ""
-
-    def valid_try():
-        global prod
+    while True:
         try:
             prod = input("Enter in a product: ")
             if prod == "cbd" or prod == "cbr" or prod == "cbp":
-                return True
+                break
             else:
-                return False
+                print("Please enter in a valid product")
         except ValueError:
-            return False
-
-    while not valid_try():
-        print("Please enter a valid command (cbd/cbr/cbp)")
-
+            print("Please enter in a valid product")
     return prod
 
 
@@ -80,8 +66,7 @@ def main():
     product = validate_product()
     project_id = get_project_id(command)
     csv = get_csv(command, product)
-    print(print_projects(api))
-    # import_csv(api, project_id, csv)
+    import_csv(api, project_id, csv)
 
 
 if __name__ == "__main__":

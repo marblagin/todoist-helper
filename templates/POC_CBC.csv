@@ -42,9 +42,6 @@ task,Set CB Cloud Host Location to Germany or North America,4,4,Llewellyn (14355
 task,Enter in CB Defense Org name,4,4,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
 task,Set CB Defense Backend Instance,4,4,Llewellyn (14355728),,,en,Europe/London
-note,"Prod06 for Germany
-Prod05 for North America
-",,,Llewellyn (14355728),,,,
 ,,,,,,,,
 task,Set Status to New,4,4,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
@@ -71,7 +68,6 @@ task,Confirm Account and Log on Keepass,4,4,Llewellyn (14355728),,,en,Europe/Lon
 task,Save Keepass DB,4,4,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
 task,"Speak to Alex, Rob or Provision Team to add to MSSP or LiveOps",4,4,Llewellyn (14355728),,,en,Europe/London
-note,CbDefenseProvisioningTeam@carbonblack.com,,,Llewellyn (14355728),,,,
 ,,,,,,,,
 task,Confirm installation String,3,2,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
