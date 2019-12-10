@@ -1,0 +1,102 @@
+﻿TYPE,CONTENT,PRIORITY,INDENT,AUTHOR,RESPONSIBLE,DATE,DATE_LANG,TIMEZONE
+task,CBR POC Checklist Template:,4,1,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Qualify POC,2,2,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Confirm if it is a partner led POC or not,2,3,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Review Opportunity,2,3,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Confirm that the Opportunity on Salesforce is on S2 Convince,3,3,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Confirm ACV Value over 7.5K,2,3,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Confirm duration of POC,2,3,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Confirm number of users,2,3,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Confirm Success Criteria,2,3,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Provision Licenses,2,2,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Create CB Response Evaluation Record,4,3,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Open Opportunity Page and Installation Record in 2 Tabs,4,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Enter Installation Name (Opportunity name and POC),4,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Add Account,4,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Set Installation Type to Eval - Carbon Black,4,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Set Product to latest version,4,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Set License Type to Evaluation,4,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Enter in Number of License,4,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Set Account Type to Partner or Prospect,4,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Set Status to New,4,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Set Eval Start date,4,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Set Eval Phase to Phase 0 - Eval Preparation,4,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Set Assigned SE,4,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Set License Expiration,4,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Enter In Success Criteria,4,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Enter In Next Steps,4,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Save the installation record,4,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Link the Installation on the Opportunity page and save,4,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Select Generate CB Token,4,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Select Generate CB License,4,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Select Generate CB RPM,4,4,Llewellyn (14355728),,,en,Europe/London
+note,Server name: empty. Enable the License end date tickbox on the right side. ,,,Llewellyn (14355728),,,,
+,,,,,,,,
+task,Send out Evaluation Email,3,2,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Perform POC,2,2,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Log POC meeting,2,3,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Update Installation Record on Salesforce,2,3,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Set Status to In-progress,4,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Set Eval Phase to Phase 1 - Sensors Installed,4,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Follow up on POC,3,2,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Review Console and any tests performed,3,3,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,First follow up POC call,3,3,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Log First follow up call,3,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Second follow up POC call,3,3,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Log Second follow up call,3,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Wrap up Call,3,3,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Log Wrap up Call,3,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,POC License Expiry,3,2,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Close Evaluation,3,2,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Set Status to complete,3,3,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Set Eval Phase to 5,3,3,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Mark for technical win or not,3,3,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
