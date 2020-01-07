@@ -1,4 +1,3 @@
-import sys
 from todoist.api import TodoistAPI
 
 
@@ -15,7 +14,7 @@ class Title:
                 prod = input("Enter in a product: ").split()
                 for x in range(len(prod)):
                     if prod[x] == "CBD" or prod[x] == "CBLO" or prod[x] == "CBTH" \
-                            or prod[x] == "CBR" or prod[x] == "CBP":
+                            or prod[x] == "CBR" or prod[x] == "CBP" or prod[x] == "CBC":
                         return prod
                 print("Please enter in a valid product")
             except ValueError:
@@ -90,7 +89,7 @@ def get_csv(data, product):
         return 'templates/Demo_Checklist.csv'
     else:
         for x in range(len(product)):
-            if product[x] == "CBD" or product[x] == "CBLO" or product[x] == "CBTH":
+            if product[x] == "CBD" or product[x] == "CBLO" or product[x] == "CBTH" or product[x] == "CBC":
                 return 'templates/POC_CBC.csv'
             elif product[x] == "CBR":
                 return 'templates/POC_CBR.csv'
@@ -103,7 +102,7 @@ def get_template_name(products, command):
         return 'Demo Checklist Template:'
     else:
         for x in range(len(products)):
-            if products[x] == "CBD" or products[x] == "CBLO" or products[x] == "CBTH":
+            if products[x] == "CBD" or products[x] == "CBLO" or products[x] == "CBTH" or products[x] == "CBC":
                 return 'CBC POC Checklist Template:'
             elif products[x] == "CBR":
                 return 'CBR POC Checklist Template:'
@@ -139,4 +138,4 @@ def main():
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()
