@@ -1,4 +1,5 @@
 from todoist.api import TodoistAPI
+import sys
 
 
 class Title:
@@ -138,4 +139,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
