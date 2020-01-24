@@ -31,25 +31,6 @@ class Title:
         return self.products
 
 
-def print_projects(api_object, verbose=False):
-    if verbose:
-        print(api_object.state['projects'])
-    else:
-        for x in range(len(api_object.state['projects'])):
-            print(api_object.state['projects'][x]['name'])
-
-
-def print_items(api_object, project_id, verbose=False):
-    if verbose:
-        for y in range(len(api_object.state['items'])):
-            if api_object.state['items'][y]['project_id'] == project_id:
-                print(api_object.state['items'][y])
-    else:
-        for y in range(len(api_object.state['items'])):
-            if api_object.state['items'][y]['project_id'] == project_id:
-                print(api_object.state['items'][y]['content'])
-
-
 def assign_company_name(api_object, project_id, template_name, title, company_name):
     parent_id = ""
     for y in range(len(api_object.state['items'])):
@@ -69,10 +50,6 @@ def assign_company_name(api_object, project_id, template_name, title, company_na
 
 def import_csv(api_object, project_id, csv):
     api_object.templates.import_into_project(project_id, csv)
-
-
-def export_to_url(api_object, project_id):
-    return api_object.templates.export_as_url(project_id)
 
 
 def get_project_id(data):

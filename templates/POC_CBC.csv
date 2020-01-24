@@ -1,4 +1,4 @@
-﻿TYPE,CONTENT,PRIORITY,INDENT,AUTHOR,RESPONSIBLE,DATE,DATE_LANG,TIMEZONE
+TYPE,CONTENT,PRIORITY,INDENT,AUTHOR,RESPONSIBLE,DATE,DATE_LANG,TIMEZONE
 task,CBC POC Checklist Template:,4,1,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
 task,Qualify POC,2,2,Llewellyn (14355728),,,en,Europe/London
@@ -42,6 +42,9 @@ task,Set CB Cloud Host Location to Germany or North America,4,4,Llewellyn (14355
 task,Enter in CB Defense Org name,4,4,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
 task,Set CB Defense Backend Instance,4,4,Llewellyn (14355728),,,en,Europe/London
+note,"Prod06 for Germany
+Prod05 for North America
+",,,Llewellyn (14355728),,,,
 ,,,,,,,,
 task,Set Status to New,4,4,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
@@ -68,10 +71,11 @@ task,Confirm Account and Log on Keepass,4,4,Llewellyn (14355728),,,en,Europe/Lon
 task,Save Keepass DB,4,4,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
 task,"Speak to Alex, Rob or Provision Team to add to MSSP or LiveOps",4,4,Llewellyn (14355728),,,en,Europe/London
+note,CbDefenseProvisioningTeam@carbonblack.com,,,Llewellyn (14355728),,,,
 ,,,,,,,,
 task,Confirm installation String,3,2,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
-task,Send out Evaluation Email,3,2,Llewellyn (14355728),,,en,Europe/London
+task,Send out Pre-Evaluation Email,3,2,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
 task,Perform POC,2,2,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
@@ -83,21 +87,25 @@ task,Set Status to In-progress,4,4,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
 task,Set Eval Phase to Phase 1 - Sensors Installed,4,4,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
-task,Follow up on POC,3,2,Llewellyn (14355728),,,en,Europe/London
+task,Send out Trial Information Email,2,2,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
-task,Review Console and any tests performed,3,3,Llewellyn (14355728),,,en,Europe/London
+task,Review Console and any tests performed,3,2,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
-task,First follow up POC call,3,3,Llewellyn (14355728),,,en,Europe/London
+task,First follow up POC call,3,2,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
-task,Log First follow up call,3,4,Llewellyn (14355728),,,en,Europe/London
+task,Log First follow up call,3,3,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
-task,Second follow up POC call,3,3,Llewellyn (14355728),,,en,Europe/London
+task,Review Console and any tests performed,3,2,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
-task,Log Second follow up call,3,4,Llewellyn (14355728),,,en,Europe/London
+task,Second follow up POC call,3,2,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
-task,Wrap up Call,3,3,Llewellyn (14355728),,,en,Europe/London
+task,Log Second follow up call,3,3,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
-task,Log Wrap up Call,3,4,Llewellyn (14355728),,,en,Europe/London
+task,Review Console and any tests performed,3,2,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Wrap up Call,3,2,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Log Wrap up Call,3,3,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
 task,POC License Expiry,3,2,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
@@ -108,4 +116,3 @@ task,Confirm that no tamper protection is on,2,3,Llewellyn (14355728),,,en,Europ
 task,"Close instance, update evaluation stage and technical win",3,3,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
 task,Speak to Aleks or Rob to deprovision the instance,3,3,Llewellyn (14355728),,,en,Europe/London
-,,,,,,,,

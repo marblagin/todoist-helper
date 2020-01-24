@@ -1,4 +1,4 @@
-﻿TYPE,CONTENT,PRIORITY,INDENT,AUTHOR,RESPONSIBLE,DATE,DATE_LANG,TIMEZONE
+TYPE,CONTENT,PRIORITY,INDENT,AUTHOR,RESPONSIBLE,DATE,DATE_LANG,TIMEZONE
 task,CBR POC Checklist Template:,4,1,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
 task,Qualify POC,2,2,Llewellyn (14355728),,,en,Europe/London
@@ -60,8 +60,11 @@ task,Select Generate CB Token,4,4,Llewellyn (14355728),,,en,Europe/London
 task,Select Generate CB License,4,4,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
 task,Select Generate CB RPM,4,4,Llewellyn (14355728),,,en,Europe/London
+note,Server name: empty. Enable the License end date tickbox on the right side. ,,,Llewellyn (14355728),,,,
 ,,,,,,,,
-task,Send out Evaluation Email,3,2,Llewellyn (14355728),,,en,Europe/London
+task,Download RPM and License File,4,4,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
+task,Send out Pre-Evaluation Email,3,2,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
 task,Perform POC,2,2,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
@@ -73,29 +76,22 @@ task,Set Status to In-progress,4,4,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
 task,Set Eval Phase to Phase 1 - Sensors Installed,4,4,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
-task,Follow up on POC,3,2,Llewellyn (14355728),,,en,Europe/London
+task,Send out Trial Information Email,2,2,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
-task,Review Console and any tests performed,3,3,Llewellyn (14355728),,,en,Europe/London
+task,First follow up POC call,3,2,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
-task,First follow up POC call,3,3,Llewellyn (14355728),,,en,Europe/London
+task,Log First follow up call,3,3,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
-task,Log First follow up call,3,4,Llewellyn (14355728),,,en,Europe/London
+task,Second follow up POC call,3,2,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
-task,Second follow up POC call,3,3,Llewellyn (14355728),,,en,Europe/London
+task,Log Second follow up call,3,3,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
-task,Log Second follow up call,3,4,Llewellyn (14355728),,,en,Europe/London
+task,Wrap up Call,3,2,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
-task,Wrap up Call,3,3,Llewellyn (14355728),,,en,Europe/London
-,,,,,,,,
-task,Log Wrap up Call,3,4,Llewellyn (14355728),,,en,Europe/London
+task,Log Wrap up Call,3,3,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
 task,POC License Expiry,3,2,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
 task,Close Evaluation,3,2,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
-task,Set Status to complete,3,3,Llewellyn (14355728),,,en,Europe/London
-,,,,,,,,
-task,Set Eval Phase to 5,3,3,Llewellyn (14355728),,,en,Europe/London
-,,,,,,,,
-task,Mark for technical win or not,3,3,Llewellyn (14355728),,,en,Europe/London
-,,,,,,,,
+task,"Close instance, update evaluation stage and technical win",3,3,Llewellyn (14355728),,,en,Europe/London
