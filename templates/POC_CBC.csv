@@ -23,7 +23,7 @@ task,Create CB Defense Evaluation Record,4,3,Llewellyn (14355728),,,en,Europe/Lo
 ,,,,,,,,
 task,Open Opportunity Page and Installation Record in 2 Tabs,4,4,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
-task,Enter Installation Name (Opportunity name and POC),4,4,Llewellyn (14355728),,,en,Europe/London
+task,Enter Installation Name (SBU_XXX_Carbon Black Cloud_POC),4,4,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
 task,Add Account,4,4,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
@@ -47,6 +47,8 @@ task,Set CB Defense Backend Instance,4,4,Llewellyn (14355728),,,en,Europe/London
 note,"Prod06 for Germany
 Prod05 for North America
 ",,,Llewellyn (14355728),,,,
+,,,,,,,,
+task,Set Platfrom to CBC,4,4,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
 task,Set Status to New,4,4,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,

@@ -80,7 +80,8 @@ def get_template_name(products, command):
         return 'Demo Checklist Template:'
     else:
         for x in range(len(products)):
-            if products[x] == "CBD" or products[x] == "CBLO" or products[x] == "CBTH" or products[x] == "CBC":
+            if products[x] == "CBD" or products[x] == "CBLO" or products[x] == "CBTH" or products[x] == "CBC" \
+                    or products[x] == "CBS" or products[x] == "CBA":
                 return 'CBC POC Checklist Template:'
             elif products[x] == "CBR":
                 return 'CBR POC Checklist Template:'
