@@ -15,7 +15,8 @@ class Title:
                 prod = input("Enter in a product: ").split()
                 for x in range(len(prod)):
                     if prod[x] == "CBD" or prod[x] == "CBLO" or prod[x] == "CBTH" \
-                            or prod[x] == "CBR" or prod[x] == "CBP" or prod[x] == "CBC":
+                            or prod[x] == "CBR" or prod[x] == "CBP" or prod[x] == "CBC" \
+                            or prod[x] == "CBS" or prod[x] == "CBA":
                         return prod
                 print("Please enter in a valid product")
             except ValueError:
@@ -67,7 +68,8 @@ def get_csv(data, product):
         return 'templates/Demo_Checklist.csv'
     else:
         for x in range(len(product)):
-            if product[x] == "CBD" or product[x] == "CBLO" or product[x] == "CBTH" or product[x] == "CBC":
+            if product[x] == "CBD" or product[x] == "CBLO" or product[x] == "CBTH" or product[x] == "CBC" \
+                    or product[x] == "CBS" or product[x] == "CBA":
                 return 'templates/POC_CBC.csv'
             elif product[x] == "CBR":
                 return 'templates/POC_CBR.csv'
