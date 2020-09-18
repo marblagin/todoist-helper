@@ -27,7 +27,7 @@ def export_to_url(api_object, project_id):
 def main():
     api = TodoistAPI('1bfa68a130d0206b525c94f22e524f4564b4f0ad')
     api.sync()
-    # print_projects(api, verbose=True)
+    print_projects(api, verbose=True)
     # print_items(api, project ID, verbose=True)
     # print(export_to_url(api, project ID))
 

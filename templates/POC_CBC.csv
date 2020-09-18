@@ -17,6 +17,8 @@ task,Confirm number of users,2,3,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
 task,Confirm Success Criteria,2,3,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
+task,Draft Up Evaluation Documentation,2,2,Llewellyn (14355728),,,en,Europe/London
+,,,,,,,,
 task,Provision Licenses,2,2,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
 task,Create CB Defense Evaluation Record,4,3,Llewellyn (14355728),,,en,Europe/London
@@ -70,9 +72,9 @@ task,Link the Installation on the Opportunity page and save,4,4,Llewellyn (14355
 ,,,,,,,,
 task,Select Start CB Defense Org to start the instance,4,4,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
-task,Confirm Account and Log on Keepass,4,4,Llewellyn (14355728),,,en,Europe/London
+task,Confirm Account and Log on Enpass,4,4,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
-task,Save Keepass DB,4,4,Llewellyn (14355728),,,en,Europe/London
+task,Sync Enpass,4,4,Llewellyn (14355728),,,en,Europe/London
 ,,,,,,,,
 task,"Speak to Alex, Rob or Provision Team to add to MSSP or LiveOps",4,4,Llewellyn (14355728),,,en,Europe/London
 note,CbDefenseProvisioningTeam@carbonblack.com,,,Llewellyn (14355728),,,,

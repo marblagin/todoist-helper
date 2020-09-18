@@ -53,8 +53,8 @@ def import_csv(api_object, project_id, csv):
     api_object.templates.import_into_project(project_id, csv)
 
 
-def get_project_id(data):
-    if data == "new demo":
+def get_project_id(command):
+    if command == "demo":
         # Demo Project ID
         return 2213838333
     else:
@@ -63,8 +63,7 @@ def get_project_id(data):
 
 
 def get_csv(data, product):
-
-    if data == "new demo":
+    if data == "demo":
         return 'templates/Demo_Checklist.csv'
     else:
         for x in range(len(product)):
@@ -78,7 +77,7 @@ def get_csv(data, product):
 
 
 def get_template_name(products, command):
-    if command == "new demo":
+    if command == "demo":
         return 'Demo Checklist Template:'
     else:
         for x in range(len(products)):
@@ -95,8 +94,10 @@ def validate_command():
     while True:
         try:
             com = input("Enter in a command: ")
-            if com == "new demo" or com == "new poc":
-                return com
+            if com == "new demo":
+                return "demo"
+            elif com == "new poc":
+                return "poc"
             else:
                 print("Please enter in a valid command")
         except ValueError:
